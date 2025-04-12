@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'swiper/css';
+@import 'lightbox2/dist/css/lightbox.min.css';
+/* @import '~lightbox2/dist/css/lightbox.min.css'; */
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.bg-blur {
+    backdrop-filter: blur(8px); /* Define a intensidade do desfoque */
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta a cor de fundo para ver o efeito */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.swiper-wrapper {
+    height: auto;
+}

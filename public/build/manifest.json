@@ -1,0 +1,38 @@
+{
+  "node_modules/lightbox2/dist/images/close.png": {
+    "file": "assets/close-DeJujm55.png",
+    "src": "node_modules/lightbox2/dist/images/close.png"
+  },
+  "node_modules/lightbox2/dist/images/loading.gif": {
+    "file": "assets/loading-BY_-FGaJ.gif",
+    "src": "node_modules/lightbox2/dist/images/loading.gif"
+  },
+  "node_modules/lightbox2/dist/images/next.png": {
+    "file": "assets/next-QVcNtdNi.png",
+    "src": "node_modules/lightbox2/dist/images/next.png"
+  },
+  "node_modules/lightbox2/dist/images/prev.png": {
+    "file": "assets/prev-BVHqDsrk.png",
+    "src": "node_modules/lightbox2/dist/images/prev.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BQ65De1C.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-c2oiJuMU.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-BpGljPqV.css"
+    ],
+    "assets": [
+      "assets/loading-BY_-FGaJ.gif",
+      "assets/prev-BVHqDsrk.png",
+      "assets/next-QVcNtdNi.png",
+      "assets/close-DeJujm55.png"
+    ]
+  }
+}
