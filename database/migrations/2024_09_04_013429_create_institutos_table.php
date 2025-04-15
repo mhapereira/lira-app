@@ -17,6 +17,7 @@ return new class extends Migration
             $table->json('ata')->nullable();
             $table->json('instituto')->nullable();
             $table->json('docs')->nullable();
+            $table->json('financeiro')->nullable();
             $table->timestamps();
         });
     }

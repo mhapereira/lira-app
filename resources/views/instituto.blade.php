@@ -64,6 +64,24 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Documentos financeiros -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+                        <strong>Documentos financeiros</strong>
+                    </button>
+                </h2>
+                <div id="collapseFor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        @foreach($instituto->financeiro as $financeiro)
+                            <a href="{{ asset('storage/' . $financeiro['arquivo']) }}" target="_blank">
+                                {{ $financeiro['name'] }}
+                            </a><br>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
             
         </div>
     </div>

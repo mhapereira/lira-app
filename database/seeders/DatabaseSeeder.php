@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Contato;
 use App\Models\Theme;
 use App\Models\User;
+use App\Models\Instituto;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -30,8 +31,17 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Contato::factory()->create([
-            'telefone' => '(16) 3251-1247',
-            'email' => 'comovi.melhoridade@hotmail.com',
+            'telefone' => '(16) 3201 9999',
+            'whatsapp' => '(16) 9 9999 9999',
+            'email' => 'exemplo@exemplo.com',
+        ]);
+
+        Instituto::factory()->create([
+            'sobre' => ' ',
+            'ata' => [],
+            'instituto' => [],
+            'docs' => [],
+            'financeiro' => [],
         ]);
     }
 }

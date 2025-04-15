@@ -14,11 +14,13 @@ class Instituto extends Model
         'ata',
         'instituto',
         'docs',
+        'financeiro'
     ];
 
     protected $casts = [
         'ata' => 'array',
         'instituto' => 'array',
         'docs' => 'array',
+        'financeiro' => 'array',
     ];
 }

@@ -19,6 +19,7 @@ class ContatoFactory extends Factory
         return [
             'email' => fake()->safeEmail(),
             'telefone' => fake()->phoneNumber(),
+            'whatsapp' => fake()->phoneNumber(),
         ];
     }
 }

@@ -65,6 +65,15 @@ class InstitutoResource extends Resource
                                     ])
                                     ->columns(1)
                             ]),
+                            Tabs\Tab::make('Documentos Financeiros')
+                            ->schema([
+                                Repeater::make('financeiro')->label('Documentos Financeiros')
+                                    ->schema([
+                                        TextInput::make('name')->required(),
+                                        FileUpload::make('arquivo')->directory('transparencia')->required()
+                                    ])
+                                    ->columns(1)
+                            ]),
                     ])
                     ->activeTab(1)
 
