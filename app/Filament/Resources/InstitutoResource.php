@@ -18,6 +18,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\Tabs;
 
 class InstitutoResource extends Resource
 {
@@ -34,24 +35,58 @@ class InstitutoResource extends Resource
         return $form
             ->schema([
                 RichEditor::make('sobre'),
-                Repeater::make('ata')
-                    ->schema([
-                        TextInput::make('name')->required(),
-                        FileUpload::make('arquivo')->directory('transparencia')->required()
+
+                Tabs::make('Heading')
+                    ->tabs([
+                        Tabs\Tab::make('Atas')
+                            ->schema([
+                                Repeater::make('ata')
+                                    ->schema([
+                                        TextInput::make('name')->required(),
+                                        FileUpload::make('arquivo')->directory('transparencia')->required()
+                                    ])
+                                    ->columns(1),
+                            ]),
+                        Tabs\Tab::make('Estatutos')
+                            ->schema([
+                                Repeater::make('instituto')->label('Estatuto')
+                                    ->schema([
+                                        TextInput::make('name')->required(),
+                                        FileUpload::make('arquivo')->directory('transparencia')->required()
+                                    ])
+                                    ->columns(1),
+                            ]),
+                        Tabs\Tab::make('Documentos institucionais')
+                            ->schema([
+                                Repeater::make('docs')->label('Documentos institucionais')
+                                    ->schema([
+                                        TextInput::make('name')->required(),
+                                        FileUpload::make('arquivo')->directory('transparencia')->required()
+                                    ])
+                                    ->columns(1)
+                            ]),
                     ])
-                    ->columns(1),
-                Repeater::make('instituto')
-                    ->schema([
-                        TextInput::make('name')->required(),
-                        FileUpload::make('arquivo')->directory('transparencia')->required()
-                    ])
-                    ->columns(1),
-                Repeater::make('docs')->label('Documentos institucionais')
-                    ->schema([
-                        TextInput::make('name')->required(),
-                        FileUpload::make('arquivo')->directory('transparencia')->required()
-                    ])
-                    ->columns(1)
+                    ->activeTab(1)
+
+                // Repeater::make('ata')
+                //     ->schema([
+                //         TextInput::make('name')->required(),
+                //         FileUpload::make('arquivo')->directory('transparencia')->required()
+                //     ])
+                //     ->columns(1),
+                // Repeater::make('instituto')->label('Estatuto')
+                //     ->schema([
+                //         TextInput::make('name')->required(),
+                //         FileUpload::make('arquivo')->directory('transparencia')->required()
+                //     ])
+                //     ->columns(1),
+                // Repeater::make('docs')->label('Documentos institucionais')
+                //     ->schema([
+                //         TextInput::make('name')->required(),
+                //         FileUpload::make('arquivo')->directory('transparencia')->required()
+                //     ])
+                //     ->columns(1)
+
             ])->columns(1);
     }
 

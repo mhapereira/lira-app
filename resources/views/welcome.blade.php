@@ -28,13 +28,13 @@
 			</div>
 			<!-- Texto -->
 			<div class="col-12 col-lg-6 d-flex flex-column justify-content-center p-4">
-				<h1 class="display-5 mb-4 montserrat-bold">Bem-vindo a Melhor Idade de Guariba!</h1>
+				<h1 class="display-5 mb-4 montserrat-bold">🎶 Bem-vindo à Lira Guaribense!</h1>
 				<p class="">
-					Descubra como é viver com plenitude e alegria na melhor fase da vida. 
-					Junte-se a nós em atividades enriquecedoras, eventos sociais, 
-					e momentos de aprendizado que promovem saúde, bem-estar e amizade. 
+					Descubra a harmonia que conecta gerações e inspira a cidade de Guariba. 
+					A Lira Guaribense é mais que uma banda — é uma tradição viva que pulsa através da música, da cultura e do amor pela arte.
+					Junte-se a nós em apresentações, ensaios e projetos que fortalecem nossa identidade cultural e musical.
 					<br>
-					Porque cada dia é uma nova oportunidade para celebrar a vida!
+					Porque cada nota tocada é uma celebração da nossa história!
 				</p>
 			</div>
 		</div>
@@ -83,18 +83,26 @@
 {{-- Sobre nós --}}
 <div class="container text-center my-5 pb-5" id="sobre">
 	<div class="w-lg-75 w-100 mx-auto">
-		<h2 class="display-5 montserrat-bold py-5 my-5">Sobre Nós</h2>
-		<p>
-			Bem-vindo ao Centro de Convivência da Melhor Idade Alegria de Viver — carinhosamente chamada COMOVI.
-			Somos uma comunidade em Guariba dedicada a promover a qualidade de vida e a socialização na terceira 
-			idade. No COMOVI, a convivência é valorizada, a Melhor Idade é celebrada, e a Alegria de Viver está 
-			presente em cada atividade, evento e interação.
-		</p>
-		<p class="mb-5">
-			Nosso objetivo é oferecer um ambiente acolhedor onde os membros possam participar de atividades 
-			físicas, educativas e culturais, criando novas memórias e amizades. Venha conhecer o COMOVI e 
-			aproveite cada momento ao máximo!
-		</p>
+	<h2 class="display-5 montserrat-bold py-5 my-5">🎺 Sobre Nós</h2>
+	<p>
+		Bem-vindo ao site oficial da <strong>Lira Guaribense</strong>, um verdadeiro patrimônio cultural de <strong>Guariba-SP</strong>, 
+		que desde <strong>1964</strong> dedica-se a preservar e propagar a música instrumental com excelência e paixão.
+	</p>
+	<p>
+		Fundada por músicos visionários e amantes da arte, a Lira nasceu do desejo de manter viva a tradição das bandas musicais 
+		e de formar novas gerações de instrumentistas em nossa cidade. Desde então, a Lira Guaribense tem sido protagonista em momentos 
+		marcantes da história local, presente em eventos <strong>cívicos, religiosos e culturais</strong>, sempre levando consigo a emoção, 
+		a disciplina e o encantamento da música de banda.
+	</p>
+	<p>
+		Em sua trajetória, a Lira transformou vidas, despertou talentos e uniu gerações em torno de uma causa nobre: 
+		<strong>a música como instrumento de cultura, cidadania e união</strong>.
+	</p>
+	<p class="mb-5">
+		Nosso compromisso é seguir tocando os corações guaribenses, formar músicos com dedicação e amor, 
+		e perpetuar uma história que já é orgulho de toda a cidade.<br>
+		<strong>Conheça a Lira Guaribense e sinta o poder da música que emociona, inspira e transforma.</strong>
+	</p>
 	</div>
 </div>
 
@@ -177,7 +185,7 @@
 {{-- Seção com Mapa --}}
 <section class="mt-5" id="contatos">
 	<div class="embed-responsive" style="position: relative; height: 500px;">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.908975527476!2d-48.2192636!3d-21.3622885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b90e47f9c85f73%3A0x47e0a3772046ccda!2sAv.%20Luiz%20Barichello%2C%20644%20-%20Jardim%20Progresso%2C%20Guariba%20-%20SP%2C%2014840-000!5e1!3m2!1sen!2sbr!4v1724693088543!5m2!1sen!2sbr&maptype=roadmap"
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.7827002193817!2d-48.22408958915548!3d-21.359064780292325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b90e38d13fb95d%3A0x494f30269f0d4605!2sAv.%20V%C3%ADctor%20Valentie%20de%20Oliveira%2C%20450%20-%20Jardim%20Progresso%2C%20Guariba%20-%20SP%2C%2014840-000!5e0!3m2!1sen!2sbr!4v1744471429841!5m2!1sen!2sbr"
 						style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
 						allowfullscreen=""
 						loading="lazy"

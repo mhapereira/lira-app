@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('institutos', function (Blueprint $table) {
             $table->id();
-            $table->text('sobre');
-            $table->json('ata');
-            $table->json('balanco');
+            $table->text('sobre')->nullable();
+            $table->json('ata')->nullable();
+            $table->json('instituto')->nullable();
+            $table->json('docs')->nullable();
             $table->timestamps();
         });
     }

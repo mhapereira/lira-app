@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Comovi</title>
+		<title>Lira</title>
 		<meta name="description" content="Descubra como é viver com plenitude e alegria na melhor fase da vida. 
 								Junte-se a nós em atividades enriquecedoras, eventos sociais, 
 								e momentos de aprendizado que promovem saúde, bem-estar e amizade.">
@@ -12,7 +12,7 @@
 		<meta name="robots" content="index, follow">
 		
 		<!-- Open Graph -->
-		<meta property="og:title" content="Comovi">
+		<meta property="og:title" content="Lira">
 		<meta property="og:description" content="Descubra como é viver com plenitude e alegria na melhor fase da vida. 
 								Junte-se a nós em atividades enriquecedoras, eventos sociais, 
 								e momentos de aprendizado que promovem saúde, bem-estar e amizade.">
@@ -22,7 +22,7 @@
 	
 		<!-- Twitter Cards -->
 		<meta name="twitter:card" content="{{ asset('storage/image_ia/kv_inicial.png') }}">
-		<meta name="twitter:title" content="Comovi">
+		<meta name="twitter:title" content="Lira">
 		<meta name="twitter:description" content="Descubra como é viver com plenitude e alegria na melhor fase da vida. 
 								Junte-se a nós em atividades enriquecedoras, eventos sociais, 
 								e momentos de aprendizado que promovem saúde, bem-estar e amizade.">
@@ -31,7 +31,7 @@
 		<!-- Structured Data -->
 		<script type="application/ld+json">
 		{
-		  "@context": "https://comovimelhoridade.org",
+		  "@context": "https://Liraguaribense.org",
 		  "@type": "WebPage",
 		  "name": "Nome da Página",
 		  "description": "Descrição da Página",
@@ -62,7 +62,7 @@
         {{-- Navbar --}}
         <nav class="navbar navbar-expand-lg fixed-top bg-blur">
             <div class="container">
-                <a class="navbar-brand montserrat-bold" href="{{ route('site.home') }}">COMOVI</a>
+                <a class="navbar-brand montserrat-bold" href="{{ route('site.home') }}">LIRA GUARIBENSE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -104,19 +104,18 @@
                     <!-- Coluna 1: Título -->
                     <div class="col-md-4 col-lg-6">
                         <h5 class="montserrat-bold">
-                            Obrigado por seu apoio e
-                            confiança na Comovi!
+                        Obrigado por fazer parte da história e da cultura musical de Guariba!
                         </h5>
                     </div>
                     <!-- Coluna 2: Endereço -->
                     <div class="col-md-4 col-lg-3">
                         <p class="montserrat-bold">Endereço</p>
                         <p class="small">
-                            Avenida Luiz Barichello, 644<br>
+                            Av. Victor V. de Oliveira, 450<br>
                             Jardim Progresso<br>
                             Guariba - SP <br>
                             <strong>CNPJ</strong>
-                            03.674.621/0001-49
+                            57.713.646/0001-33
                         </p>
                     </div>
                     <!-- Coluna 3: Contatos -->
@@ -131,7 +130,7 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col">
-                        <p class="text-center small">© 2024 Todos os direitos reservados | Desenvolvido por Mateus Pereira.</p>
+                        <p class="text-center small">© 2025 Todos os direitos reservados | Desenvolvido por Mateus Pereira.</p>
                     </div>
                 </div>
             </div>
