@@ -33,6 +33,7 @@ class GaleriaResource extends Resource
         return $form
         ->schema([
             FileUpload::make('path')->label('Imagem')
+            ->image()
             ->directory('galeria')
             ->multiple()
             ->required(),
