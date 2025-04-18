@@ -111,7 +111,7 @@
                     <div class="col-md-4 col-lg-3">
                         <p class="montserrat-bold">Endereço</p>
                         <p class="small">
-                            Av. Victor V. de Oliveira, 450<br>
+                            Av. Victor V. de Oliveira, 462 A<br>
                             Jardim Progresso<br>
                             Guariba - SP <br>
                             <strong>CNPJ</strong>
